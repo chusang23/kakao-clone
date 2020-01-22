@@ -46,16 +46,26 @@
     <ul class="chats__list">
       <li class="chats__chat chat">
         <a href="chat.html">
-        <div class="chat__column">
-          <img class="chat__avatar g-avatar" src="avatar.jpg" />
-          <span class="chat__username">
-            Lynn
-          </span>
-          <span class="chat__preview">Going home</span>
-        </div>
-        <div class="chat__column">
-          <span class="chat__timestamp">Yesterday</span>
-        </div>
+          <div class="chats_chat friend friend--lg">
+            <div class="friend__column">
+            <img src="avatar.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                물쿠크
+              </span>
+              <span class="friend__bottom-text">
+                Going home!
+              </span>
+             </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__now-listening">
+                <span class="chat__timestamp">
+                  March 8
+                </span>
+              </div>
+            </div>
+          </div>
         </a>
       </li>
     </ul>
@@ -70,6 +80,7 @@
       </li>
       <li class="nav__list-item">
         <a href="index.html" class="nav__list-link">
+          <div class="nav__badge">8</div>
           <i class="fas fa-comment"></i>
         </a>
       </li>
